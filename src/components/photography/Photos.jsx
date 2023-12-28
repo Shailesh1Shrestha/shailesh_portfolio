@@ -1,4 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import photo4 from "../../assets/photo4.jpg"
+import photo5 from "../../assets/photo5.jpg"
+import photo6 from "../../assets/photo6.jpg"
+import photo2 from "../../assets/photo2.jpg"
+import photo3 from "../../assets/photo3.jpg"
+import photo7 from "../../assets/photo7.jpg"
 
 
 import 'swiper/css';
@@ -6,13 +12,12 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 const reviews = [
-    {id: 1, image: "../../assets/photo4.jpg"},
-    {id: 2, image: "../../assets/photo5.jpg"},
-    {id: 3, image: "../../assets/photo6.jpg"},
-    {id: 4, image: "../../assets/photo1.jpg"},
-    {id: 5, image: "../../assets/photo2.jpg"},
-    {id: 6, image: "../../assets/photo3.jpg"},
-    {id: 7, image: "../../assets/photo7.jpg"},
+    {id: 1, image:{photo4}},
+    {id: 2, image: {photo5}},
+    {id: 3, image: {photo6}},
+    {id: 4, image: {photo2}},
+    {id: 5, image: {photo3}},
+    {id: 6, image:{photo7}}
 ]
 
 function Photos() {

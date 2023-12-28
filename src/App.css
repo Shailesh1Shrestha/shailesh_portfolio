@@ -36,3 +36,10 @@ header{
     height: 40px;
     /* "w-42 h-12 animate__animated animate__flipInX  animate__slower	4s animate__infinite	infinite" */
 }
+.image-resize{
+    height: auto;
+    width: auto;
+    margin: 4%;
+    padding: 20px;
+    box-shadow: 2px 1px 17px -4px rgba(0,0,0,0.49);
+}
