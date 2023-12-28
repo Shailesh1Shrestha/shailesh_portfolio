@@ -1,6 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { FaGithub } from "react-icons/fa";
+import project1 from "../../assets/project1.jpg";
+import project2 from "../../assets/project2.jpg"
+import project3 from "../../assets/project3.png"
+import vectorimg from "../../assets/Vector.png"
 
 function Portfolio() {
   const [projects, setProjects] = useState([]);
@@ -33,7 +37,7 @@ function Portfolio() {
         {/* {projects.map((project) => ( */}
         <div className="shadow-xl rounded-lg cursor-pointer">
           <img
-            src="src/assets/project1.jpg"
+            src={project1}
             alt=""
             className="hover:scale-90 transition-all duration-300"
           />
@@ -52,7 +56,7 @@ function Portfolio() {
             >
               View In Github
               <img
-                src="src/assets/vector.png"
+                src={vectorimg}
                 alt=""
                 className="w-4 inline-block ml-3"
               />
@@ -61,7 +65,7 @@ function Portfolio() {
         </div>
         <div className="shadow-xl rounded-lg cursor-pointer">
           <img
-            src="src/assets/project2.jpg"
+            src={project2}
             alt=""
             className="hover:scale-90 transition-all duration-300"
           />
@@ -78,7 +82,7 @@ function Portfolio() {
             >
               View In Github
               <img
-                src="src/assets/vector.png"
+                src={vectorimg}
                 alt=""
                 className="w-4 inline-block ml-3"
               />
@@ -87,7 +91,7 @@ function Portfolio() {
         </div>
         <div className="shadow-xl rounded-lg cursor-pointer">
           <img
-            src="src/assets/project3.png"
+            src={project3}
             alt=""
             className="hover:scale-90 transition-all duration-300"
           />
@@ -104,7 +108,7 @@ function Portfolio() {
             >
               View In Github
               <img
-                src="src/assets/vector.png"
+                src={vectorimg}
                 alt=""
                 className="w-4 inline-block ml-3"
               />
