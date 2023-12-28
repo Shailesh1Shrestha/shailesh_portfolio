@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { HiMenu } from "react-icons/hi";
 import {Link} from 'react-scroll';
+import logo from '../../assets/logo.png'
+import "animate.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,12 +22,13 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="w-full fixed top-0 left-0 right-0">
-      <nav className={`py-4 md:px-12 px-4 bg-white ${isSticky ? "stickytop-0 right-0 left-0 bg-white": ""}`}>
+    <header className="w-full fixed top-0 left-0  right-0 ">
+      <nav className={`py-4 md:px-12 px-4 shadow-md bg-white ${isSticky ? "stickytop-0 right-0 left-0 bg-white": ""}`}>
         <div className="flex items-center justify-between">
           {/* logo */}
           <div className="cursor-pointer">
-            <img src="" alt="logo" />
+          <Link to="home" spy ={true} activeClass="active" smooth={true} offset={-100}>
+          <img src={logo} alt="logo" className=" w-39 h-10 animate__animated w-42 h-12 animate__animated animate__swing  animate__slower	 animate__infinite	infinite " /></Link>
           </div>
           {/* menu items for large device  */}
           <div className=  "lg:flex items-center gap-8 cursor-pointer hidden text-body text-xl ">

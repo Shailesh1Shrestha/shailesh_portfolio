@@ -9,6 +9,9 @@ export default {
       'roboto': "'Roboto', 'sans-serif'"
     },
     extend: {
+      spacing: {
+        '5px': '5px'
+      },
       colors: {
         'primary': '#5E3BEE',
         'headingColor': '#282938',

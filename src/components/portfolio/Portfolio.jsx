@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { FiDribbble } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 
 
 function Portfolio() {
@@ -20,7 +20,7 @@ function Portfolio() {
         <h2 className="md:text-5xl text-4xl font-bold">My Portfolio</h2>
       </div>
       <div>
-        <button className="btn-primary bg-dribble py-5"><FiDribbble className="w-6 h-6 inline-block mr-2"/> Visit My Dribble</button>
+        <button className="btn-primary bg-slate-950 py-5"><FaGithub className="w-7 h-8 inline-block "/> Visit My Github</button>
       </div>
       </div>
 
@@ -37,8 +37,8 @@ function Portfolio() {
                 {project.name}
               </h3>
               <p className="text-body text-lg mb-4">{project.description}</p>
-              <a href="/" className="text-xl underline underline-offset-8 hover:text-primary ">
-                View In Dribble
+              <a href={project.link} className="text-xl underline underline-offset-8 hover:text-primary ">
+                View In Github
                 <img
                   src="src/assets/vector.png"
                   alt=""
