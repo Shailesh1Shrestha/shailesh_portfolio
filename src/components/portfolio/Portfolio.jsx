@@ -20,7 +20,7 @@ function Portfolio() {
         <h2 className="md:text-5xl text-4xl font-bold">My Portfolio</h2>
       </div>
       <div>
-        <button className="btn-primary bg-slate-950 py-5"><FaGithub className="w-7 h-8 inline-block "/> Visit My Github</button>
+      <a href="https://github.com/Shailesh1Shrestha?tab=repositories"> <button className="btn-primary bg-slate-950 py-5"><FaGithub className="w-7 h-8 inline-block "/>Visit My Github</button> </a>
       </div>
       </div>
 

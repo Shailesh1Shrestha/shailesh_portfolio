@@ -41,5 +41,8 @@ header{
     width: auto;
     margin: 4%;
     padding: 20px;
+    
+}
+img-hover{
     box-shadow: 2px 1px 17px -4px rgba(0,0,0,0.49);
 }

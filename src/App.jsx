@@ -5,7 +5,8 @@ import Navbar from './components/Navbar/Navbar'
 import Skills from './components/Skills/Skills'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import Photography from './components/photography/Photography'
+// import Photography from './components/photography/Photography'
+import Photog from './components/photography/Photog'
 import Portfolio from './components/portfolio/Portfolio'
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
     <Skills />
     <About />
     <Portfolio />
-    <Photography />
+    {/* <Photography /> */}
+    <Photog  />
     <Contact />
     <Footer />
    </>
