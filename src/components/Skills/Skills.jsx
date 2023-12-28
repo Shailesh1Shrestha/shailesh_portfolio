@@ -2,8 +2,8 @@ import React from 'react'
 
 
 const skills = [
-    {id:1, name: "Frontend Development",  description1:"HTML and CSS", description2: "JavaScript and React ",description3: "Tailwind and Bootstrap", image: "src/assets/skill-1.png"},
-    {id:2, name: "Backend Development", description1: "Java",  description2:"MySQL",description3: "Php",image: "src/assets/skill-2.png"}
+    {id:1, name: "Frontend Development",  description1:"HTML and CSS", description2: "JavaScript and React ",description3: "Tailwind and Bootstrap", image: "../../assets/skill-1.png"},
+    {id:2, name: "Backend Development", description1: "Java",  description2:"MySQL",description3: "Php",image: "../..//assets/skill-2.png"}
 ]
 
 const Skills = () => {

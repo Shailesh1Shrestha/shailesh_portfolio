@@ -6,13 +6,13 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 const reviews = [
-    {id: 1, image: "src/assets/photo4.jpg"},
-    {id: 2, image: "src/assets/photo5.jpg"},
-    {id: 3, image: "src/assets/photo6.jpg"},
-    {id: 4, image: "src/assets/photo1.jpg"},
-    {id: 5, image: "src/assets/photo2.jpg"},
-    {id: 6, image: "src/assets/photo3.jpg"},
-    {id: 7, image: "src/assets/photo7.jpg"},
+    {id: 1, image: "../../assets/photo4.jpg"},
+    {id: 2, image: "../../assets/photo5.jpg"},
+    {id: 3, image: "../../assets/photo6.jpg"},
+    {id: 4, image: "../../assets/photo1.jpg"},
+    {id: 5, image: "../../assets/photo2.jpg"},
+    {id: 6, image: "../../assets/photo3.jpg"},
+    {id: 7, image: "../../assets/photo7.jpg"},
 ]
 
 function Photos() {
