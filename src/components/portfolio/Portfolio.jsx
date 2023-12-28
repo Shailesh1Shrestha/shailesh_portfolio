@@ -16,7 +16,7 @@ function Portfolio() {
   // }, []);
 
   return (
-    <div className="lg:mx-12 mx-4 my-32 " id="portfolio">
+    <div className="lg:mx-12 mx-4 my-28 " id="portfolio">
       <div className="flex flex-col md:flex-row justify-between mb-20 gap-8 md:items-center ">
         <div className="text-headingColor">
           <p className="text-xl font-semibold mb-5">Recent Projects</p>

@@ -14,7 +14,7 @@ export default function Photo() {
             <div className="container-photograph" id="photography">
                 
                 
-            <div className="lg:mx-12 mx-4 py-5 justify-between items-center" id="skills">
+            <div className="lg:mx-12 mx-4 my-25 " id="skills">
               <div className="text-headingColor mb-20">
              <p className="text-xl font-semibold mb-5">Photos</p>
              <h2 className="md:text-5xl text-4xl font-bold">My Photography</h2>

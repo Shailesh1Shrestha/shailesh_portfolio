@@ -42,15 +42,16 @@ const Navbar = () => {
             >
               Skills
             </Link>
-            <Link to="about" spy ={true} activeClass="active" smooth={true} offset={-100}
-              className={({isActive})=>`block py-2 pc-4 cursor-pointer text-primary hover:text-gray-500 ${isActive ?"text-primary":"text-gray-700"}`}
-            >
-              About Me
-            </Link>
+
             <Link to="portfolio" spy ={true} activeClass="active" smooth={true} offset={-100}
               className= {({isActive})=>`block py-2 pc-4 cursor-pointer text-primary hover:text-gray-500 ${isActive ?"text-primary":"text-gray-700"}`}
             >
               Portfolio
+            </Link>
+            <Link to="about" spy ={true} activeClass="active" smooth={true} offset={-100}
+              className={({isActive})=>`block py-2 pc-4 cursor-pointer text-primary hover:text-gray-500 ${isActive ?"text-primary":"text-gray-700"}`}
+            >
+              About Me
             </Link>
             <Link to="photography" spy ={true} activeClass="active" smooth={true} offset={-100}
               className={({isActive})=>`block py-2 pc-4 cursor-pointer text-primary hover:text-gray-500 ${isActive ?"text-primary":"text-gray-700"}`}

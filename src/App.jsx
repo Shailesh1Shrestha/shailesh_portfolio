@@ -17,8 +17,8 @@ function App() {
     <Navbar />
     <Home />
     <Skills />
-    <About />
     <Portfolio />
+    <About />
     {/* <Photography /> */}
     <Photog  />
     <Contact />
