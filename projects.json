@@ -3,18 +3,21 @@
     "id": 1,
     "name": "Background Changer",
     "description": "This project is about to change the background color of the page by clicking the color button. It is made by using Tailwind and React JS.",
-    "image": "../src/assets/project1.png"
+    "image": "src/assets/project1.jpg",
+    "link": "https://github.com/Shailesh1Shrestha/Background-Changer"
   },
   {
     "id": 2,
     "name": "Maya Your AI Friend",
     "description": "This is a project that work like alexa and do some task that is provided by the user. It is made by using Python.",
-    "image": "../src/assets/project1.png"
+    "image": "src/assets/project2.jpg",
+    "link": "https://github.com/Shailesh1Shrestha/Maya-your-AI-Friend"
   },
   {
     "id": 3,
     "name": "PasswordGenerator",
     "description": "This project is about to generate a password by clicking the generate button which includes numberic and characters also. It is made by using Tailwind and React JS.",
-    "image": "../src/assets/project1.png"
+    "image": "src/assets/project3.png",
+    "link": "https://github.com/Shailesh1Shrestha/PasswordGenerator"
   }
 ]
