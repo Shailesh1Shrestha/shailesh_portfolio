@@ -16,7 +16,7 @@ function Home() {
             <div className="md:w-1/2 w-full mt-5">
                 {/* <h2 className="text-xl text-headingColor font-semibold mb-5">Hey, I am Shailesh</h2> */}
                 <h1 className="md:text-6xl text-4xl font-bold text-headingColor leading-sung 
-                md:leading-[76px] mb-5 ">Hey, I am <h1 className="text-primary animate__animated animate__bounceInLeft animate__slower	3s"> <h1 className=" animate-pulse"> Shailesh Shrestha</h1> </h1></h1>
+                md:leading-[76px] mb-5 ">Namaste, I am <h1 className="text-primary animate__animated animate__bounceInLeft animate__slower	3s"> <h1 className=" animate-pulse"> Shailesh Shrestha</h1> </h1></h1>
                 <p className="text-body text-xl leading-9 mb-8">A passionate frontend developer with a knack for crafting beautiful and user-friendly digital experience.Based in Kathmandu, Nepal. With a background in Computer Science and Information Technology.</p>
  
                 <a href={shaileshCV}><button className="btn-primary text-2xl">Get in Touch</button> </a>
