@@ -15,18 +15,20 @@ export default function Photo() {
                 
                 
             <div className="lg:mx-12 mx-4 my-25 " id="skills">
-              <div className="text-headingColor mb-20">
-             <p className="text-xl font-semibold mb-5">Photos</p>
-             <h2 className="md:text-5xl text-4xl font-bold">My Photography</h2>
-            </div>
+            <div className = "text-headingColor text-center mb-20">
+        <p className='text-xl font-semibold mb-5'>Photos</p>
+        <h2 className='md:text-5xl text-4xl font-bold'>My Photography</h2>
+        
+      </div>
+    
 
                 <div className="photo-holder">
                     <div className="photo-card boxImage">
                         
-                        <img className='photo boxImage' src={Photo1} alt="" />
+                        <img className='photo boxImage' src={Photo6} alt="" />
                     </div>
                     <div className="photo-card boxImage">
-                        <img className='photo' src={Photo2} alt="" />
+                        <img className='photo' src={Photo7} alt="" />
                     </div>
                     <div className="photo-card boxImage">
                         <img className='photo' src={Photo3} alt="" />
@@ -38,10 +40,10 @@ export default function Photo() {
                         <img className='photo' src={Photo5} alt="" />
                     </div>
                     <div className="photo-card boxImage">
-                        <img className='photo' src={Photo6} alt="" />
+                        <img className='photo' src={Photo1} alt="" />
                     </div>
                     <div className="photo-card boxImage">
-                        <img className='photo' src={Photo7} alt="" />
+                        <img className='photo' src={Photo2} alt="" />
                     </div>
                  
                 </div>
