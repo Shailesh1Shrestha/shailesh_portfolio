@@ -41,7 +41,7 @@ const Skills = () => {
               alt="img"
               className="w-20 h-20 bg-white rounded-lg shadow-md mb-7 p-3"
             /> */}
-            <h3 className="text-3xl font-bold mb-4">{skill.name}</h3>
+            <h3 className="  text-3xl font-bold mb-4">{skill.name}</h3>
             <h2 className="text-xl">{skill.description1} </h2>
             <h2 className="text-xl">{skill.description2} </h2>
             <h2 className="text-xl">{skill.description3} </h2>

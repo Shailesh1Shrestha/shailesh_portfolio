@@ -23,12 +23,18 @@ const Navbar = () => {
 
   return (
     <header className="w-full fixed top-0 left-0  right-0 ">
-      <nav className={`py-2 md:px-12 px-4 opacity-85 shadow-md bg-white ${isSticky ? "stickytop-0 right-0 left-0 bg-white": ""}`}>
+      <nav className={`py-2 md:px-12 px-4  shadow-md bg-white/80 ${isSticky ? "stickytop-0 right-0 left-0 bg-white": ""}`}>
         <div className="flex items-center  justify-between">
           {/* logo */}
           <div className="cursor-pointer">
           <Link to="home" spy ={true} activeClass="active" smooth={true} offset={-100}>
-          <img src={logo} alt="logo" className=" w-39 h-10 animate__animated w-42 h-12 animate__animated animate__swing  animate__slower	 animate__infinite	infinite " /></Link>
+          {/* <img src={logo} alt="logo" className=" w-39 h-10 animate__animated w-42 h-12 animate__animated animate__swing  animate__slower	 animate__infinite	infinite " /> */}
+          
+          <h3 className=" font-roboto text-3xl animate__animated animate__animated animate__heartBeat  animate__slower 3s	 animate__infinite ">
+            SH<span className="text-primary">AILE</span>SH  
+          </h3>
+
+          </Link>
           </div>
           {/* menu items for large device  */}
           <div className=  "lg:flex items-center gap-8 cursor-pointer hidden text-body text-xl ">
