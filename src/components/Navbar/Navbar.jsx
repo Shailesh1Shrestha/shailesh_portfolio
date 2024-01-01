@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full fixed top-0 left-0  right-0 ">
-      <nav className={`py-2 md:px-12 px-4  shadow-md bg-white/80 ${isSticky ? "stickytop-0 right-0 left-0 bg-white": ""}`}>
+      <nav className={`py-2 md:px-12 px-4  shadow-md bg-white/90 ${isSticky ? "stickytop-0 right-0 left-0 bg-white": ""}`}>
         <div className="flex items-center  justify-between">
           {/* logo */}
           <div className="cursor-pointer">

@@ -96,7 +96,7 @@ function Footer() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-20">
         <a href=""className="flex-shrink-0">
           {/* <img src={logo} alt="logo" className="w-15 h-14 hover:-translate-y-3"/> */}
-          <h3 className=" font-roboto text-3xl hover:-translate-y-3 ">
+          <h3 className=" font-roboto text-4xl hover:-translate-y-3 ">
             SH<span className="text-primary">AILE</span>SH  
           </h3>
           </a>
@@ -136,11 +136,12 @@ function Footer() {
       <div className="mt-10 flex flex-col md:flex-row justify-between gap-8">
         <p>Made with  💖 in Nepal</p>
         <span className="text-sm text-gray-500 sm:text-center">
-            © 2023 
-            <a href="https://shresthashailesh.com.np/" className="hover:underline">
+            © 2023  
+            <a href="https://shresthashailesh.com.np/" className="hover:underline hover:text-primary">
                shresthashailesh.com.np
             </a>
             . All Rights Reserved.
+            
           </span>
         <div className="space-x-6">
           <a href="/" className="hover:text-gray-400">Privacy Policy</a>

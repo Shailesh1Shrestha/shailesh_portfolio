@@ -8,7 +8,7 @@ function Home() {
 
 
   return (
-    <div className="mt-5 bg-bgShade" id= "home">
+    <div className="mt-5 bg-bgShade" id= "home" >
       <div className="lg:px-12 px-4 flex flex-col md:flex-row-reverse items-center justify-between py-20 gap-2">
       <div className="md:w-1/2">
        <img src={slogo} alt="" className=" w-full aboutImg animate__animated animate__backInRight  " />
