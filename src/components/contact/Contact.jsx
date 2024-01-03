@@ -98,6 +98,7 @@ function Contact() {
                 </p>
 
                 <div className="flex items-center mt-8 text-gray-600">
+                  <a href="https://www.google.com/maps/place/GOPAL+CHOK/@27.7021364,85.3326441,58m/data=!3m1!1e3!4m6!3m5!1s0x39eb19af8aab8893:0x568d7a8ccfa336d1!8m2!3d27.7020977!4d85.3328242!16s%2Fg%2F11tn26p0_q?entry=ttu">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -120,6 +121,7 @@ function Contact() {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
+                  </a>
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
                     Maitidevi, Kathmandu, Nepal
                   </div>
@@ -148,6 +150,7 @@ function Contact() {
                 </div>
 
                 <div className="flex items-center mt-2 text-gray-600">
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmllmJlcjnDLKlzMrCGbcvtRlqZRbrhsGQWpcCdKNqBzjXTnNnctHvKgbCXDWgDpFsdFlZ">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -164,6 +167,7 @@ function Contact() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
+                  </a>
                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
                     saileshcrest20@gmail.com
                   </div>
