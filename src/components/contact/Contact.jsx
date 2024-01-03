@@ -232,14 +232,14 @@ function Contact() {
                   />
                 </div>
 
-                <button
+                <buttonq
                   type="submit"
                   value="Send"
                   className="btn-primary mt-5 bg-primary py-3 cursor-pointer w-full"
                   
                 >
                   Send Message
-                </button>
+                </buttonq>
               </form>
             </div>
           </div>
