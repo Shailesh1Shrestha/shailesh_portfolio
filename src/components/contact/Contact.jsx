@@ -183,6 +183,7 @@ function Contact() {
                     type="text"
                     name="user_name"
                     id="user_name"
+                    required
                     onChange={(e) => setUser_name(e.target.value)}
                     placeholder="Full Name"
                     className=" block w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold  focus:border-primary focus:outline-none"
@@ -198,6 +199,7 @@ function Contact() {
                     name="user_email"
                     id="user_email"
                     placeholder="Email"
+                    required
                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-primary focus:outline-none"
                   />
                 </div>
@@ -210,6 +212,7 @@ function Contact() {
                     type="text"
                     name="user_phone"
                     id="user_phone"
+                    required
                     placeholder="Phone Number"
                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-primary focus:outline-none"
                   />
@@ -233,6 +236,7 @@ function Contact() {
                   type="submit"
                   value="Send"
                   className="btn-primary mt-5 bg-primary py-3 cursor-pointer w-full"
+                  
                 >
                   Send Message
                 </button>
