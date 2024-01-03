@@ -118,16 +118,16 @@ function Footer() {
           </Link>
         </div>
         <div className="flex items-center gap-4 ">
-          <a href="https://github.com/Shailesh1Shrestha">
+          <a target="_blank" href="https://github.com/Shailesh1Shrestha">
           <FaGithub className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary"/>
           </a>
-          <a href="https://www.youtube.com/channel/UCUBpKrn0GZzbRUZlP5kzTHw">
+          <a target="_blank" href="https://www.youtube.com/channel/UCUBpKrn0GZzbRUZlP5kzTHw">
           <FaYoutube className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary"/>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100025225284094">
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100025225284094">
           <FaFacebookF className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary"/>
           </a>
-          <a href="https://www.instagram.com/shailesh_shrestha21/">
+          <a target="_blank" href="https://www.instagram.com/shailesh_shrestha21/">
           <FaInstagram className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary"/>
           </a>
         </div>
