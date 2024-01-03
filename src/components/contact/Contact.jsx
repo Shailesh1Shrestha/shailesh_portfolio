@@ -98,7 +98,8 @@ function Contact() {
                 </p>
 
                 <div className="flex items-center mt-8 text-gray-600">
-                  <a href="https://www.google.com/maps/place/GOPAL+CHOK/@27.7021364,85.3326441,58m/data=!3m1!1e3!4m6!3m5!1s0x39eb19af8aab8893:0x568d7a8ccfa336d1!8m2!3d27.7020977!4d85.3328242!16s%2Fg%2F11tn26p0_q?entry=ttu">
+                  <a target="_blank" 
+                  href="https://www.google.com/maps/place/GOPAL+CHOK/@27.7021364,85.3326441,58m/data=!3m1!1e3!4m6!3m5!1s0x39eb19af8aab8893:0x568d7a8ccfa336d1!8m2!3d27.7020977!4d85.3328242!16s%2Fg%2F11tn26p0_q?entry=ttu">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -150,7 +151,9 @@ function Contact() {
                 </div>
 
                 <div className="flex items-center mt-2 text-gray-600">
-                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmllmJlcjnDLKlzMrCGbcvtRlqZRbrhsGQWpcCdKNqBzjXTnNnctHvKgbCXDWgDpFsdFlZ">
+                  <a
+                  target="_blank" 
+                  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmllmJlcjnDLKlzMrCGbcvtRlqZRbrhsGQWpcCdKNqBzjXTnNnctHvKgbCXDWgDpFsdFlZ/">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -236,14 +239,14 @@ function Contact() {
                   />
                 </div>
 
-                <buttonq
+                <button
                   type="submit"
                   value="Send"
                   className="btn-primary mt-5 bg-primary py-3 cursor-pointer w-full"
                   
                 >
                   Send Message
-                </buttonq>
+                </button>
               </form>
             </div>
           </div>
