@@ -15,6 +15,7 @@ function App() {
   return (  
    <>
     <Navbar />
+    <hr />
     <Bot />
     <Home />
     <Skills />

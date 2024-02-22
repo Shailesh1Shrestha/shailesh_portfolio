@@ -92,7 +92,7 @@ function Footer() {
     // </div>
 
 
-    <div className="bg-bgShade py-10 md:px-12 px-4 ">
+    <div className="bg-bgShade py-5 md:px-12 px-4 ">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-20">
         <a href=""className="flex-shrink-0">
           {/* <img src={logo} alt="logo" className="w-15 h-14 hover:-translate-y-3"/> */}
@@ -100,23 +100,25 @@ function Footer() {
             SH<span className="text-primary">AILE</span>SH  
           </h3>
           </a>
-        <div className="flex flex-col sm:flex-row md:items-center gap-1 flex-wrap ">
+          <section className="section-home">
+        <div className=" flex flex-col sm:flex-row md:items-center gap-1 flex-wrap ">
         <Link to="home" spy ={true} activeClass="active" smooth={true} offset={-100}>
-          <a href="/" className="block hover:text-gray-400 py-2 px-4">Home</a>
+          <a href="/" className=" block hover:text-gray-400 py-2 px-4">Home</a>
           </Link>
           <Link to="skills" spy ={true} activeClass="active" smooth={true} offset={-100}>
-          <a href="/" className="block hover:text-gray-400 py-2 px-4">Skills</a>
+          <a href="/" className=" block hover:text-gray-400 py-2 px-4">Skills</a>
           </Link>
           <Link to="about" spy ={true} activeClass="active" smooth={true} offset={-100}>
-          <a href="/" className="block hover:text-gray-400 py-2 px-4">About Me</a>
+          <a href="/" className=" block hover:text-gray-400 py-2 px-4">About Me</a>
           </Link>
           <Link to="portfolio" spy ={true} activeClass="active" smooth={true} offset={-100}>
-          <a href="/" className="block hover:text-gray-400 py-2 px-4">Portfolio</a>
+          <a href="/" className=" block hover:text-gray-400 py-2 px-4">Portfolio</a>
           </Link>
           <Link to="photography" spy ={true} activeClass="active" smooth={true} offset={-100}>
           <a href="/" className="block hover:text-gray-400 py-2 px-4">Photography</a>
           </Link>
         </div>
+        </section>
         <div className="flex items-center gap-4 ">
           <a target="_blank" href="https://github.com/Shailesh1Shrestha">
           <FaGithub className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary"/>
